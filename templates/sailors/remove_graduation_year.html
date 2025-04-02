@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Remove Graduation Year - CNU Recruitment{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Remove Sailors by Graduation Year</h1>
+    <a href="{% url 'sailor_list' %}" class="btn btn-secondary">Back to Sailors</a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="alert alert-warning">
+            <strong>Warning:</strong> This will permanently remove all sailors of the selected graduation year from the database, along with their results and ratings.
+        </div>
+        
+        <form method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="grad_year" class="form-label">Select Graduation Year to Remove</label>
+                <select name="grad_year" id="grad_year" class="form-select" required>
+                    <option value="">-- Select Year --</option>
+                    {% for year in grad_years %}
+                    <option value="{{ year }}">{{ year }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <button type="submit" class="btn btn-danger">Continue to Confirmation</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

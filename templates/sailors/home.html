@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - CNU Sailing Recruitment{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1>CNU Sailing Recruitment Database</h1>
+    <p class="lead">Track and analyze high school sailing results for recruitment.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Sailors</h5>
+                <p class="card-text display-4">{{ sailor_count }}</p>
+                <a href="{% url 'sailor_list' %}" class="btn btn-primary">View All Sailors</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Regattas</h5>
+                <p class="card-text display-4">{{ regatta_count }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Schools</h5>
+                <p class="card-text display-4">{{ school_count }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

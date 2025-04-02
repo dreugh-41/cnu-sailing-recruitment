@@ -1,0 +1,238 @@
+{% extends 'base.html' %}
+
+{% block title %}Interested Sailors - CNU Recruitment{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Interested Sailors</h1>
+    <a href="{% url 'sailor_list' %}" class="btn btn-primary">Back to All Sailors</a>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        {% if years_and_sailors %}
+            <!-- Tabs for graduation years -->
+            <ul class="nav nav-tabs mb-3" id="yearTabs" role="tablist">
+                {% for year_data in years_and_sailors %}
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link {% if forloop.first %}active{% endif %}" 
+                            id="year-{{ year_data.year|slugify }}-tab" 
+                            data-bs-toggle="tab" 
+                            data-bs-target="#year-{{ year_data.year|slugify }}" 
+                            type="button" 
+                            role="tab" 
+                            aria-controls="year-{{ year_data.year|slugify }}" 
+                            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+                        {{ year_data.year }}
+                    </button>
+                </li>
+                {% endfor %}
+            </ul>
+            
+            <!-- Tab content -->
+            <div class="tab-content" id="yearTabContent">
+                {% for year_data in years_and_sailors %}
+                <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" 
+                     id="year-{{ year_data.year|slugify }}" 
+                     role="tabpanel" 
+                     aria-labelledby="year-{{ year_data.year|slugify }}-tab">
+                    
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Last Heard From</th>
+                                    <th>Last Reached Out</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in year_data.sailors %}
+                                <tr class="{{ item.row_class }}">
+                                    <td>
+                                        <a href="{% url 'sailor_profile' item.sailor.id %}">{{ item.clean_name }}</a>
+                                    </td>
+                                    <td>{{ item.primary_position }}</td>
+                                    <td class="date-cell">
+                                        <div class="d-flex align-items-center">
+                                            <span id="heard-date-{{ item.interest.id }}">
+                                                {% if item.interest.last_heard_from %}
+                                                    {{ item.interest.last_heard_from|date:"Y-m-d" }}
+                                                {% else %}
+                                                    Never
+                                                {% endif %}
+                                            </span>
+                                            <button class="btn btn-sm btn-outline-primary ms-2 update-date-btn" 
+                                                   data-url="{% url 'update_heard_from' item.interest.id %}"
+                                                   data-target="heard-date-{{ item.interest.id }}">
+                                                Update
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="date-cell">
+                                        <div class="d-flex align-items-center">
+                                            <span id="reached-date-{{ item.interest.id }}">
+                                                {% if item.interest.last_reached_out %}
+                                                    {{ item.interest.last_reached_out|date:"Y-m-d" }}
+                                                {% else %}
+                                                    Never
+                                                {% endif %}
+                                            </span>
+                                            <button class="btn btn-sm btn-outline-primary ms-2 update-date-btn" 
+                                                   data-url="{% url 'update_reached_out' item.interest.id %}"
+                                                   data-target="reached-date-{{ item.interest.id }}">
+                                                Update
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="btn-group btn-group-sm">
+                                            <button class="btn btn-primary toggle-details" data-sailor-id="{{ item.sailor.id }}">
+                                                Details
+                                            </button>
+                                            <a href="{% url 'toggle_interest' item.sailor.id %}" class="btn btn-danger">
+                                                Remove
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="details-row d-none" id="details-{{ item.sailor.id }}">
+                                    <td colspan="5">
+                                        <div class="regatta-details p-3">
+                                            <h5>Regatta History for {{ item.clean_name }}</h5>
+                                            {% if item.sailor.result_set.all %}
+                                            <table class="table table-sm">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Regatta</th>
+                                                        <th>Division</th>
+                                                        <th>Position</th>
+                                                        <th>Place</th>
+                                                        <th>ELO Change</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {% for result in item.sailor.result_set.all %}
+                                                    <tr>
+                                                        <td>{{ result.regatta.name }}</td>
+                                                        <td>{{ result.division }}</td>
+                                                        <td>{{ result.position }}</td>
+                                                        <td>{{ result.place }}</td>
+                                                        <td class="{% if result.elo_change > 0 %}text-success{% elif result.elo_change < 0 %}text-danger{% endif %}">
+                                                            {% if result.elo_change > 0 %}+{% endif %}{{ result.elo_change|floatformat:1 }}
+                                                        </td>
+                                                    </tr>
+                                                    {% endfor %}
+                                                </tbody>
+                                            </table>
+                                            {% else %}
+                                            <p>No regatta results found for this sailor.</p>
+                                            {% endif %}
+                                        </div>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="alert alert-info">
+                <p>No interested sailors yet. Mark sailors as interesting from the main list.</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Details toggle functionality
+    document.querySelectorAll('.toggle-details').forEach(button => {
+        button.addEventListener('click', function() {
+            const sailorId = this.dataset.sailorId;
+            const detailsRow = document.getElementById('details-' + sailorId);
+            
+            if (detailsRow.classList.contains('d-none')) {
+                // Close any other open details rows
+                document.querySelectorAll('.details-row:not(.d-none)').forEach(row => {
+                    row.classList.add('d-none');
+                    const btn = document.querySelector(`.toggle-details[data-sailor-id="${row.id.split('-')[1]}"]`);
+                    if (btn) btn.textContent = 'Details';
+                });
+                
+                // Open this details row
+                detailsRow.classList.remove('d-none');
+                this.textContent = 'Hide';
+            } else {
+                // Close this details row
+                detailsRow.classList.add('d-none');
+                this.textContent = 'Details';
+            }
+        });
+    });
+    
+    // Date update buttons
+    document.querySelectorAll('.update-date-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            
+            const url = this.dataset.url;
+            const targetId = this.dataset.target;
+            const targetElement = document.getElementById(targetId);
+            
+            // Send AJAX request
+            fetch(url, {
+                method: 'GET',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Update the date display
+                    targetElement.textContent = data.date;
+                    
+                    // Show notification
+                    showNotification('Date updated successfully');
+                    
+                    // Reload the page to update the row colors
+                    location.reload();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showNotification('Error updating date', 'danger');
+            });
+        });
+    });
+    
+    // Helper function to show notifications
+    function showNotification(message, type = 'success') {
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = 'position-fixed bottom-0 end-0 p-3';
+        notification.style.zIndex = '1050';
+        notification.innerHTML = `
+            <div class="toast show bg-${type} text-white" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-body">
+                    ${message}
+                </div>
+            </div>
+        `;
+        
+        // Add to document
+        document.body.appendChild(notification);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    }
+</script>
+{% endblock %}

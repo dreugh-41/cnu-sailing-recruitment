@@ -1,0 +1,525 @@
+Found 442 sailor entries:
+
+Name                      Grad Year  School                              Div   Place   Position Regatta                                 
+----------------------------------------------------------------------------------------------------------------------------------
+Chase Carson              '25        Alameda High School                 A     10      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Sabine Lee                '25        Alameda High School                 A     10      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Reid Sojka                '26        Alameda High School                 A     27      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Tristan Banthi            '28        Alameda High School                 A     27      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Logan Schwimmer           '26        Alameda High School                 B     21      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Zach Siskind              '28        Alameda High School                 B     21      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Joby Overton              '26        Alameda High School                 B     30      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Aubrie Grimes             '26        Alameda High School                 B     30      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Lucas Vanasse             '28        Anacortes High School               A     20      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Cynthia Zimmerman         '26        Anacortes High School               A     20      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Aeden Peterson            '25        Anacortes High School               A     25      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Will Peters               '25        Anacortes High School               A     25      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Will  Prewitt             '27        Anacortes High School               A     25      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Will Peters               '25        Anacortes High School               A     25      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Aeden Peterson            '25        Anacortes High School               A     25      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Chase Johnson             '27        Anacortes High School               B     16      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Emri Vincent              '26        Anacortes High School               B     16      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Allison Lehmann           '26        Anacortes High School               B     19      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Juniper Reiss-Landreau    '27        Anacortes High School               B     19      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Nolan Balocki             '27        Archbishop Riordan                  A     9       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Jai Walthew               '27        Archbishop Riordan                  A     9       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Eva  Bennett              '25        Archbishop Riordan                  B     11      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Paige Walsh               '27        Archbishop Riordan                  B     11      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Elizabeth Walsh           '26        Archbishop Riordan                  B     11      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Elizabeth Walsh           '26        Archbishop Riordan                  B     11      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Eva  Bennett              '25        Archbishop Riordan                  B     11      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Joseph Tappen             '25        Bainbridge High School              A     10      Skipper  2024 ISSA Keelboat National Invitational
+Alden Lemon               '25        Bainbridge High School              A     10      Crew     2024 ISSA Keelboat National Invitational
+Charlotte Cheng-Sun       '26        Bainbridge High School              A     10      Crew     2024 ISSA Keelboat National Invitational
+Stone Dewey               '26        Bainbridge High School              A     10      Crew     2024 ISSA Keelboat National Invitational
+Nelson Dorsey             '26        Bainbridge High School              A     20      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Cyrus  Yan                '26        Bainbridge High School              A     20      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Beckett Ladenburg         '27        Bainbridge High School              A     20      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Charlotte Cheng-Sun       '26        Bainbridge High School              A     20      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Atlas  Montgomery         '27        Bainbridge High School              A     20      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Stone Dewey               '26        Bainbridge High School              A     31      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Holden Goodham            '26        Bainbridge High School              A     31      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Daniel  Chapman           '27        Bainbridge High School              B     5       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Hattie Madia              '28        Bainbridge High School              B     5       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Atlas  Montgomery         '27        Bainbridge High School              B     5       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Joseph Tappen             '25        Bainbridge High School              B     22      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Tatum McGee               '28        Bainbridge High School              B     22      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Suraj Siddaiah            '26        Bainbridge High School              B     27      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Emma  Jackson             '26        Bainbridge High School              B     27      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Cullen Rushing            '28        Berkeley High School                A     8       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Katie Koh                 '27        Berkeley High School                A     8       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Penelope Kershaw          '26        Berkeley High School                B     6       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Jesse Rushing             '28        Berkeley High School                B     6       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Cameron Rosso             '27        Bishop's School                     A     14      Skipper  2024-25 PCISA SoCal 3 Gold              
+Rowan Harmon              '27        Bishop's School                     A     14      Crew     2024-25 PCISA SoCal 3 Gold              
+Celeste  Oder             '26        Bishop's School                     A     16      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Nico Bravo                '28        Bishop's School                     A     16      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Baron Li                  '27        Bishop's School                     A     16      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Maxfield Payne            '25        Bishop's School                     B     4       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Cameron Rosso             '27        Bishop's School                     B     4       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Cameron Rosso             '27        Bishop's School                     B     4       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Maxfield Payne            '25        Bishop's School                     B     4       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Ava Reas                  '26        Blue and Gold                       A     23      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Hanah Yin                 '26        Blue and Gold                       A     23      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Sam Suddath               '26        Blue and Gold                       B     1       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Lily Yao                  '26        Blue and Gold                       B     1       Crew     2025 Rose Bowl Regatta - HS Bronze      
+CJ  Phelan                '26        Blue and Gold                       B     1       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Siri  Biswas              '28        Capital High School                 A     5       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Clare  Hopkins            '28        Capital High School                 A     5       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Aidan  Budelman           '25        Capital High School                 A     7       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Ryan  Solie               '25        Capital High School                 A     7       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Alden Visser              '27        Capital High School                 B     4       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Jack  Kesler              '28        Capital High School                 B     4       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Alijah Manzanares         '25        Capital High School                 B     20      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Seher  Kasmani            '27        Capital High School                 B     20      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Owen Fretwell             '26        Cathedral Catholic High School      A     6       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Carlin Fretwell           '26        Cathedral Catholic High School      A     6       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Liam Kaseburg             '26        Cathedral Catholic High School      A     19      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Charlie Corney            '26        Cathedral Catholic High School      A     19      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Sean Kaseburg             '28        Cathedral Catholic High School      B     12      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Lauren Grace MacVaugh-Howe '27        Cathedral Catholic High School      B     12      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Bennett Simpson           '28        Cathedral Catholic High School      B     26      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Hugo Jiang                '28        Cathedral Catholic High School      B     26      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Grant Press               '25        Chatham High School                 A     16      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Noah Lin                  '27        Chatham High School                 A     16      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Christian Bruno           '28        Chatham High School                 A     16      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Ethan Wagner              '26        Chatham High School                 B     10      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Samantha Wagner           '28        Chatham High School                 B     10      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Cameron Francini          '25        Chatham High School                 B     10      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Jack Cronan               '25        Clear Lake High School              A     8       Skipper  2024 ISSA Keelboat National Invitational
+Sydney Small              '28        Clear Lake High School              A     8       Crew     2024 ISSA Keelboat National Invitational
+Cole  Gourley             '25        Clear Lake High School              A     8       Crew     2024 ISSA Keelboat National Invitational
+Zachary Brown             '26        Clear Lake High School              A     8       Crew     2024 ISSA Keelboat National Invitational
+Alex Fisher               '27        Coastal Academy High School         A     1       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Caleb Winn                '26        Coastal Academy High School         A     1       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Jack Carson               '25        Coastal Academy High School         A     1       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Kisa Hilsabeck            '27        Coastal Academy High School         A     1       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Harper Schindler          '29        Coastal Academy High School         B     12      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Benjamin Winn             '25        Coastal Academy High School         B     12      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Nathaniel Camacho         '25        Coastal Academy High School         B     12      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Alexander (Xander) Hartsell '26        Coastal Academy High School         B     12      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Ryan  Tonkovich           '26        Convent and Stuart Hall High Schools A     22      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Mila  Kane                '25        Convent and Stuart Hall High Schools A     22      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Jack Wicker               '27        Convent and Stuart Hall High Schools B     23      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Aaron  Toy-Lim            '26        Convent and Stuart Hall High Schools B     23      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Sebastian Gebler          '27        Convent and Stuart Hall High Schools B     23      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Timothy  Morrissey        '28        Convent and Stuart Hall High Schools B     23      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Michael Sentovich         '26        Corona del Mar High School          A     3       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Mesa Uliasz               '28        Corona del Mar High School          A     3       Skipper  2024-25 PCISA SoCal 3 Gold              
+Julia Getter              '26        Corona del Mar High School          A     3       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Molly Torres              '28        Corona del Mar High School          A     3       Crew     2024-25 PCISA SoCal 3 Gold              
+Siena Nichols             '27        Corona del Mar High School          A     7       Skipper  2024 ISSA Keelboat National Invitational
+Michael Sentovich         '26        Corona del Mar High School          A     7       Crew     2024 ISSA Keelboat National Invitational
+Maddie Nichols            '27        Corona del Mar High School          A     7       Crew     2024 ISSA Keelboat National Invitational
+Isabella Clark            '25        Corona del Mar High School          A     7       Crew     2024 ISSA Keelboat National Invitational
+Jonah Moore               '27        Corona del Mar High School          A     8       Skipper  2024-25 PCISA SoCal 3 Gold              
+Camryn Homer              '28        Corona del Mar High School          A     8       Crew     2024-25 PCISA SoCal 3 Gold              
+Preston Decker            '28        Corona del Mar High School          A     9       Skipper  2024-25 PCISA SoCal 3 Gold              
+Alex Letourneau           '26        Corona del Mar High School          A     9       Crew     2024-25 PCISA SoCal 3 Gold              
+Siena Nichols             '27        Corona del Mar High School          A     12      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Isabel Lewis              '26        Corona del Mar High School          A     12      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Nevin Elliott             '26        Corona del Mar High School          A     14      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Ashley Turner             '25        Corona del Mar High School          A     14      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Maddie Nichols            '27        Corona del Mar High School          B     10      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Isabella Clark            '25        Corona del Mar High School          B     10      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Zarrin Flowers            '26        Corona del Mar High School          B     14      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Jillian Kaufman           '26        Corona del Mar High School          B     14      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Liam Ensley               '25        Corona del Mar High School          B     28      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Lincoln Betz              '28        Corona del Mar High School          B     28      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Kyren Shirar              '28        Corona del Mar High School          B     28      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Emerson Shoemaker         '28        Corona del Mar High School          B     28      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Trey  Gregory             '26        Coronado Islanders                  A     14      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Cailey Song               '27        Coronado Islanders                  A     14      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Zak  Stone                '27        Coronado Islanders                  B     13      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Fiona Toohey              '28        Coronado Islanders                  B     13      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+William  Bosworth         '27        Coronado Islanders                  B     13      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Harry Bryan               '25        Crossroads                          A     28      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Sloane Davis              '27        Crossroads                          A     28      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Vivi Lagutenko            '27        Crossroads                          B     19      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Leticia  Lagutenko        '28        Crossroads                          B     19      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Zack Kennedy              '26        Crossroads                          B     19      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Skye Crawford             '25        Design Tech High School             A     19      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+John Nix                  '25        Design Tech High School             A     19      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Tibet Saldamli            '28        Design Tech High School             B     15      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Arushi Lee                '28        Design Tech High School             B     15      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Porter Murray             '26        Dos Pueblos                         A     26      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Leo Korman                '26        Dos Pueblos                         A     26      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Emerson Wadell            '28        Dos Pueblos                         B     20      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Nicholas  Daniele         '27        Dos Pueblos                         B     20      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Grace Harriet             '27        Encinal High School                 A     18      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Jack Sheets               '28        Encinal High School                 A     18      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Lucie  Harriet            '29        Encinal High School                 B     20      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Stella  Chua              '27        Encinal High School                 B     20      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Dominic Ciccimaro         '25        Francis Parker School               A     1       Skipper  2024-25 PCISA SoCal 3 Gold              
+Noelle Yuen               '25        Francis Parker School               A     1       Crew     2024-25 PCISA SoCal 3 Gold              
+Emily  Otto               '26        Francis Parker School               A     2       Skipper  2024-25 PCISA SoCal 3 Gold              
+Fenja Bahrenburg          '25        Francis Parker School               A     2       Crew     2024-25 PCISA SoCal 3 Gold              
+Caeden Nodurft            '25        Francis Parker School               A     7       Skipper  2024-25 PCISA SoCal 3 Gold              
+Fabiola Bahrenburg        '28        Francis Parker School               A     7       Crew     2024-25 PCISA SoCal 3 Gold              
+Caeden Nodurft            '25        Francis Parker School               A     32      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Fenja Bahrenburg          '25        Francis Parker School               A     32      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Dominic Ciccimaro         '25        Francis Parker School               B     25      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Noelle Yuen               '25        Francis Parker School               B     25      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Finn Deprez               '25        Gig Harbor High School              A     8       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Nate Dietrich             '26        Gig Harbor High School              A     8       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Nico Konyk                '25        Gig Harbor High School              B     3       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Charlie Yando             '28        Gig Harbor High School              B     3       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Peter Horst               '26        Grosse Pointe South High School     A     13      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Ana Kozak                 '27        Grosse Pointe South High School     A     13      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Connor Smith              '26        Grosse Pointe South High School     B     9       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Teddy Gmeiner             '27        Grosse Pointe South High School     B     9       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Parker Moore              '25        Hampton Roads Academy               A     5       Skipper  2024 ISSA Keelboat National Invitational
+Daphne  Ambrosino         '27        Hampton Roads Academy               A     5       Crew     2024 ISSA Keelboat National Invitational
+Nicholas Bielewicz        '26        Hampton Roads Academy               A     5       Crew     2024 ISSA Keelboat National Invitational
+Patrick Bielewicz         '28        Hampton Roads Academy               A     5       Crew     2024 ISSA Keelboat National Invitational
+Matthew Commons           '25        Harvard-Westlake                    A     6       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Sean Ozalpasan            '25        Harvard-Westlake                    A     6       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Helena  Salas             '25        Harvard-Westlake                    B     16      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Mira Goldman              '27        Harvard-Westlake                    B     16      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Beck  Brill               '27        Immaculata La Salle High School     A     9       Skipper  2024 ISSA Keelboat National Invitational
+Nathalie Caudron          '25        Immaculata La Salle High School     A     9       Crew     2024 ISSA Keelboat National Invitational
+Soleil Aurignac           '25        Immaculata La Salle High School     A     9       Crew     2024 ISSA Keelboat National Invitational
+Marina Wardlaw            '27        Immaculata La Salle High School     A     9       Crew     2024 ISSA Keelboat National Invitational
+Finn Bell                 '26        John T. Hoggard High School         A     5       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Eleanor Wright            '26        John T. Hoggard High School         A     5       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Emmy Teer                 '25        John T. Hoggard High School         B     18      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+George Adams              '25        John T. Hoggard High School         B     18      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Malia Wilke               '28        La Jolla High School                A     15      Skipper  2024-25 PCISA SoCal 3 Gold              
+Owen Sterbenz             '28        La Jolla High School                A     15      Crew     2024-25 PCISA SoCal 3 Gold              
+Trevor Dunklee            '26        La Jolla High School                A     17      Skipper  2024-25 PCISA SoCal 3 Gold              
+Katie McQuaid             '28        La Jolla High School                A     17      Crew     2024-25 PCISA SoCal 3 Gold              
+Maggie  Ugoretz           '28        La Jolla High School                A     21      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Madeline Ehlert           '26        La Jolla High School                A     21      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Malia Wilke               '28        La Jolla High School                B     17      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Trevor Dunklee            '26        La Jolla High School                B     17      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Owen Sterbenz             '28        La Jolla High School                B     17      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Katie McQuaid             '28        La Jolla High School                B     17      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Emma Edwards              '28        Laguna Blanca School                A     2       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Savannah Zollett          '29        Laguna Blanca School                A     2       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Jack Grube                '26        Laguna Blanca School                B     8       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Robie Polos               '26        Laguna Blanca School                B     8       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Owen  Kohut               '25        Lake Forest High School             A     6       Skipper  2024 ISSA Keelboat National Invitational
+Maddie Rode               '26        Lake Forest High School             A     6       Crew     2024 ISSA Keelboat National Invitational
+Grady Strothman           '25        Lake Forest High School             A     6       Crew     2024 ISSA Keelboat National Invitational
+Keegan  Chatburn          '25        Lake Forest High School             A     6       Crew     2024 ISSA Keelboat National Invitational
+Stewart McCaleb           '26        Los Alamitos High School            A     1       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Savvy Harris              '29        Los Alamitos High School            A     1       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Mathilde  Smith           '26        Los Alamitos High School            B     14      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Cameron Farmer            '25        Los Alamitos High School            B     14      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Henry Tran                '28        Los Alamitos High School            B     14      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Josh Mee                  '28        Los Alamitos High School            B     14      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Lion Birnecker            '26        Loyola Academy                      A     12      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Laura Koszeghy            '26        Loyola Academy                      A     12      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Audrey  Yen               '26        Loyola Academy                      B     7       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Alexsandra Stakhurska     '28        Loyola Academy                      B     7       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Brady Kennedy             '25        Mater Dei High School               A     1       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Madison Jones             '26        Mater Dei High School               A     1       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Noah Stapleton            '25        Mater Dei High School               A     2       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Hannah Crompton           '26        Mater Dei High School               A     2       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Tate Christopher          '25        Mater Dei High School               A     4       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Madison Mansour           '26        Mater Dei High School               A     4       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Beckett Christensen       '27        Mater Dei High School               A     12      Skipper  2024-25 PCISA SoCal 3 Gold              
+Maddie Liu                '28        Mater Dei High School               A     12      Crew     2024-25 PCISA SoCal 3 Gold              
+Walter McFarland          '25        Mater Dei High School               A     17      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Olivia Norton             '27        Mater Dei High School               A     17      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Colin Kennedy             '28        Mater Dei High School               B     3       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Sophia Groenhuyzen        '27        Mater Dei High School               B     3       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Nickolas Lech             '26        Mater Dei High School               B     4       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Fiona Barbeito            '26        Mater Dei High School               B     4       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Gage Christopher          '28        Mater Dei High School               B     8       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Maddie Liu                '28        Mater Dei High School               B     8       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Kingston Keyoung          '27        Mater Dei High School               B     11      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Sophia Corzine            '26        Mater Dei High School               B     11      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Olivia Corzine            '28        Mater Dei High School               B     11      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Gabe Hasen                '25        Mira Costa High School              A     5       Skipper  2024-25 PCISA SoCal 3 Gold              
+Sailor Mays               '29        Mira Costa High School              A     5       Crew     2024-25 PCISA SoCal 3 Gold              
+Gabe Hasen                '25        Mira Costa High School              A     22      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Truman Schroeder          '28        Mira Costa High School              A     22      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Sailor Mays               '29        Mira Costa High School              A     22      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Palmer Mays               '27        Mira Costa High School              B     1       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Isla Cooper               '29        Mira Costa High School              B     1       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Loki Barrett              '26        Mission Bay High School             A     4       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Maeve McGovern            '26        Mission Bay High School             A     4       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Kaden  Miller             '25        Mission Bay High School             A     9       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Bridget Buettner          '26        Mission Bay High School             A     9       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Anna Huber                '26        Mission Bay High School             A     10      Skipper  2024-25 PCISA SoCal 3 Gold              
+Maeve McGovern            '26        Mission Bay High School             A     10      Crew     2024-25 PCISA SoCal 3 Gold              
+Josh Kozak                '25        Mission Bay High School             B     2       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Alexander Martin          '28        Mission Bay High School             B     2       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Anna Huber                '26        Mission Bay High School             B     2       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Alex Markworth            '25        Mission Bay High School             B     18      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Indigo Craig              '25        Mission Bay High School             B     18      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Olivia Gingue             '26        New Trier HS                        A     24      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Camila Benes              '26        New Trier HS                        A     24      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Paula Kowalczyk           '26        New Trier HS                        A     24      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Ralph Lipford             '27        New Trier HS                        B     24      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Davis Levy                '28        New Trier HS                        B     24      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Paula Kowalczyk           '26        New Trier HS                        B     24      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Gabriel Vegas             '27        New Trier HS                        B     24      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Camila Benes              '26        New Trier HS                        B     24      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Charlie  Krause           '28        Newport Harbor High School          A     4       Skipper  2024-25 PCISA SoCal 3 Gold              
+Milana Dedriech           '28        Newport Harbor High School          A     4       Crew     2024-25 PCISA SoCal 3 Gold              
+Conrad Cook               '25        Newport Harbor High School          A     13      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Madison  Jo               '28        Newport Harbor High School          A     13      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Cash Espinoza             '25        Newport Harbor High School          A     18      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Quinten Mahdi             '28        Newport Harbor High School          A     18      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Charlotte  Carmichael     '27        Newport Harbor High School          B     13      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Samantha Villard          '26        Newport Harbor High School          B     13      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Reid White                '27        Newport Harbor High School          B     15      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Milana Dedriech           '28        Newport Harbor High School          B     15      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Liam  Taylor              '25        Olympia High School                 A     3       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Jessica Patton            '26        Olympia High School                 A     3       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Alan  Timms               '26        Olympia High School                 A     23      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Kaden  Kim                '27        Olympia High School                 A     23      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Simone  Reck              '27        Olympia High School                 A     26      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Faye  Hervieux            '26        Olympia High School                 A     26      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Alyssa  Leong             '26        Olympia High School                 B     11      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Cate Griffith             '27        Olympia High School                 B     11      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Cameron  Leclair          '27        Olympia High School                 B     22      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Connie  Chen              '28        Olympia High School                 B     22      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Liam  Power               '25        Olympia High School                 B     32      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Caleigh  Mingay           '25        Olympia High School                 B     32      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Alex Mirfield             '28        Pacific Collegiate School           A     17      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Bixby Rasmussen           '28        Pacific Collegiate School           A     17      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Garrett Koontz            '26        Pacific Collegiate School           B     2       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Yasmine  Crum             '25        Pacific Collegiate School           B     2       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Oliver                    '27        Pacific Palisades Charter High School A     27      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Katelyn Chang             '27        Pacific Palisades Charter High School A     27      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Marin Purdy               '28        Pacific Palisades Charter High School B     25      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Raphael Einzig            '28        Pacific Palisades Charter High School B     25      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Leland Howard             '26        Palos Verdes High School            A     28      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+George Faragallah         '27        Palos Verdes High School            A     28      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Isabella  Nastri          '29        Palos Verdes Peninsula High School  A     3       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Julia Musial              '26        Palos Verdes Peninsula High School  B     3       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Lada Nosar                '26        Palos Verdes Peninsula High School  B     3       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Hudson Underhill          '26        Park City High School               A     14      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Lainey Wilson             '28        Park City High School               A     14      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Madeline Schomaker        '26        Park City High School               B     23      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Molly  Schomaker          '28        Park City High School               B     23      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Emily  Otto               '26        Parker                              A     12      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Fabiola Bahrenburg        '28        Parker                              A     12      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Fia  Cattaneo             '27        Parker                              B     6       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Mia Turner                '27        Parker                              B     6       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Ian Nyenhuis              '25        Point Loma High School              A     2       Skipper  2024 ISSA Keelboat National Invitational
+Ryan Downey               '25        Point Loma High School              A     2       Crew     2024 ISSA Keelboat National Invitational
+Skye Terrell              '25        Point Loma High School              A     2       Crew     2024 ISSA Keelboat National Invitational
+Holland Vierling          '27        Point Loma High School              A     2       Crew     2024 ISSA Keelboat National Invitational
+Wyatt Kelly               '26        Point Loma High School              A     7       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Julia Stewart             '26        Point Loma High School              A     7       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Ian Nyenhuis              '25        Point Loma High School              A     8       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Skye Terrell              '25        Point Loma High School              A     8       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Kevin Cason               '27        Point Loma High School              A     10      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Paige Tillson             '26        Point Loma High School              A     10      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Zachary Peterson          '26        Point Loma High School              A     11      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Madeline Kirby            '28        Point Loma High School              A     11      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Anton Schmid              '26        Point Loma High School              B     1       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Olive Kanemasu            '27        Point Loma High School              B     1       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Oscar Parzen              '26        Point Loma High School              B     2       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Kristin Hawkins           '25        Point Loma High School              B     2       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Kousei Hatter             '27        Point Loma High School              B     9       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Taylor Ashton             '26        Point Loma High School              B     9       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Kaya Hancock              '26        Point Loma High School              B     17      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Braden Ozarski            '27        Point Loma High School              B     17      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Naya McLaughlin           '26        Point Loma High School              B     17      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Dylhan Bajaj              '28        Redondo Union High School           A     19      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Maya Cortez               '28        Redondo Union High School           A     19      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Indi Essmiller            '27        Redondo Union High School           A     19      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Alden  Snyder             '27        Redondo Union High School           B     13      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Tatum Cunningham          '25        Redondo Union High School           B     13      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Meliah Medeiros           '28        Redondo Union High School           B     13      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Hailey Elias              '28        Redondo Union High School           B     13      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Nathan Posard             '25        Redwood High School                 A     13      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Onnalie Anela             '27        Redwood High School                 A     13      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Mark Xu                   '26        Redwood High School                 A     21      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Beckett Kern              '28        Redwood High School                 A     21      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Whitney Feagin            '27        Redwood High School                 B     12      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Lauren Crawford           '27        Redwood High School                 B     12      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Blake Oberbauer           '25        Redwood High School                 B     16      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Elsie Schroeder           '27        Redwood High School                 B     16      Crew     2025 Rose Bowl Regatta - HS GOLD        
+James Franzone            '27        SF University High School           A     2       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Reeve Char                '27        SF University High School           A     2       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Alice  Newmeyer           '25        SF University High School           B     23      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Chloe Eenmaa              '28        SF University High School           B     23      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Chloe Eenmaa              '28        SF University High School           B     23      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Aristu Sachdev            '28        SF University High School           B     23      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Alice  Newmeyer           '25        SF University High School           B     23      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Praire Press              '26        San Domenico High School            A     15      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Dylan Song                '25        San Domenico High School            A     15      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Merritt Sellers           '26        San Domenico High School            A     23      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Cara Parks                '27        San Domenico High School            A     23      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Seamus Crain              '26        San Domenico High School            B     10      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Xander  Helming           '26        San Domenico High School            B     10      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Django Press              '28        San Domenico High School            B     18      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Zach Mar-Elia             '27        San Domenico High School            B     18      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Carly Kieding             '25        San Marcos High School              A     5       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Taylor Escola             '27        San Marcos High School              A     5       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Sam Wells                 '26        San Marcos High School              A     15      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Paul McClain              '26        San Marcos High School              A     15      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Teo Lee                   '26        San Marcos High School              B     5       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Brynn Behrens             '26        San Marcos High School              B     5       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Ryan Wells                '26        San Marcos High School              B     31      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Ariyana Haley             '27        San Marcos High School              B     31      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Kennedy Hildebrand        '27        San Pedro High School               A     4       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Bradley Uyematsu          '25        San Pedro High School               A     4       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Nicholas Parsnik          '26        San Pedro High School               A     6       Skipper  2024-25 PCISA SoCal 3 Gold              
+Gwen Hildebrand           '25        San Pedro High School               A     6       Crew     2024-25 PCISA SoCal 3 Gold              
+Nicholas Parsnik          '26        San Pedro High School               A     15      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Stephanie Roney           '26        San Pedro High School               A     15      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Kennedy Hildebrand        '27        San Pedro High School               A     16      Skipper  2024-25 PCISA SoCal 3 Gold              
+Niko Seiple               '27        San Pedro High School               A     16      Crew     2024-25 PCISA SoCal 3 Gold              
+Iliana Hernandez          '27        San Pedro High School               B     5       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Angelina  Albano          '26        San Pedro High School               B     5       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Gwen Hildebrand           '25        San Pedro High School               B     8       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Niko Seiple               '27        San Pedro High School               B     8       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Crue  Ziskind             '25        Santa Barbara High School           A     16      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Grant Long                '26        Santa Barbara High School           A     16      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Dylan Seawards            '26        Santa Barbara High School           B     6       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Niko Barbee               '27        Santa Barbara High School           B     6       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Cooper Keeves             '26        Santa Monica High School            A     29      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Joseph novak              '26        Santa Monica High School            A     29      Crew     2025 Rose Bowl Regatta - HS GOLD        
+wills stratton            '25        Santa Monica High School            B     7       Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Eames Weeks               '25        Santa Monica High School            B     7       Crew     2025 Rose Bowl Regatta - HS GOLD        
+Jessica Green             '25        Sato Academy of Mathematics and Science A     10      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Asher Liebgold            '26        Sato Academy of Mathematics and Science A     10      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Elijah Soussan            '26        Sato Academy of Mathematics and Science A     10      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Abigail Fenholt           '28        Sato Academy of Mathematics and Science B     14      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Elijah Soussan            '26        Sato Academy of Mathematics and Science B     14      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Ishaan Peterson           '28        Sato Academy of Mathematics and Science B     14      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Aabid Fitzgerald          '26        Sato Academy of Mathematics and Science B     14      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Joaquin DesRochers        '25        South Torrance High School          A     9       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Arianna Yiakas            '27        South Torrance High School          A     9       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Zoe Yiakas                '29        South Torrance High School          A     9       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Joaquin DesRochers        '25        South Torrance High School          A     11      Skipper  2024-25 PCISA SoCal 3 Gold              
+Katie Traylen             '27        South Torrance High School          A     11      Crew     2024-25 PCISA SoCal 3 Gold              
+Reese  Lieser             '25        South Torrance High School          B     7       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Katie Traylen             '27        South Torrance High School          B     7       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Zoe Yiakas                '29        South Torrance High School          B     7       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Pearse Dowd               '25        St. George's School                 A     4       Skipper  2024 ISSA Keelboat National Invitational
+Lucca Antonietti          '25        St. George's School                 A     4       Crew     2024 ISSA Keelboat National Invitational
+Grace Patterson           '25        St. George's School                 A     4       Crew     2024 ISSA Keelboat National Invitational
+Ike Schutz                '25        St. George's School                 A     4       Crew     2024 ISSA Keelboat National Invitational
+Beckett Shinn             '25        St. Ignatius College Prep - San Francisco A     30      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Miles White               '25        St. Ignatius College Prep - San Francisco A     30      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Marina  Priskich          '25        St. Ignatius College Prep - San Francisco B     21      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Lauren Yu                 '27        St. Ignatius College Prep - San Francisco B     21      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Dimitri Dimitrov          '27        St. Ignatius College Prep - San Francisco B     21      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Jack Snow                 '25        St. John Bosco High School          A     7       Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Tanner  Swagger           '26        St. John Bosco High School          A     7       Crew     2025 Rose Bowl Regatta - HS Bronze      
+Ben  Garza                '25        St. John Bosco High School          B     21      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Michael Beaird            '25        St. John Bosco High School          B     21      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Elizabeth Nash            '28        St. Joseph High School              A     13      Skipper  2024-25 PCISA SoCal 3 Gold              
+Kaya Gagnon               '27        St. Joseph High School              A     13      Crew     2024-25 PCISA SoCal 3 Gold              
+Elizabeth Nash            '28        St. Joseph High School              A     18      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Kaya Gagnon               '27        St. Joseph High School              A     18      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Brooks Vogt               '28        St. Joseph High School              B     26      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Sienna Cadarette          '26        St. Joseph High School              B     26      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Peter Herlihy             '25        Tabor Academy                       A     1       Skipper  2024 ISSA Keelboat National Invitational
+Jack Spillane             '25        Tabor Academy                       A     1       Crew     2024 ISSA Keelboat National Invitational
+Maria Castle              '25        Tabor Academy                       A     1       Crew     2024 ISSA Keelboat National Invitational
+Eliza Corral              '25        Tabor Academy                       A     1       Crew     2024 ISSA Keelboat National Invitational
+Oscar Melet               '27        The Bay School of San Francisco     A     17      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Maya Urfer                '25        The Bay School of San Francisco     A     17      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Caleb Everett             '26        The Bay School of San Francisco     A     24      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Milo Sperry               '25        The Bay School of San Francisco     A     24      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Anna Rauh                 '26        The Bay School of San Francisco     A     24      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Gus Gossett               '27        The Bay School of San Francisco     B     9       Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Lelio Maurillo            '25        The Bay School of San Francisco     B     9       Crew     2025 Rose Bowl Regatta - HS SILVER      
+Nico Anders               '26        The Bay School of San Francisco     B     29      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Nola Jesenko              '26        The Bay School of San Francisco     B     29      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Charlie Fine              '25        The International School of San Francisco A     11      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Katharine  MacKenzie      '27        The International School of San Francisco A     11      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Lusia Foster              '26        The International School of San Francisco B     17      Skipper  2025 Rose Bowl Regatta - HS Bronze      
+Flora Ebringer            '27        The International School of San Francisco B     17      Crew     2025 Rose Bowl Regatta - HS Bronze      
+Arancha Rivero-Ansed      '27        The Stony Brook School              A     25      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+Joshua Henson             '25        The Stony Brook School              A     25      Crew     2025 Rose Bowl Regatta - HS GOLD        
+JP Panabianco             '27        The Stony Brook School              A     25      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Emily Gaillard            '25        The Stony Brook School              B     24      Skipper  2025 Rose Bowl Regatta - HS GOLD        
+JP Panabianco             '27        The Stony Brook School              B     24      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Joshua Henson             '25        The Stony Brook School              B     24      Crew     2025 Rose Bowl Regatta - HS GOLD        
+Henry Scalise             '26        The Urban School                    A     11      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Adabella London           '28        The Urban School                    A     11      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Paloma Seligman           '28        The Urban School                    A     11      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Mackenzie Burns           '28        The Urban School                    B     27      Skipper  2025 Rose Bowl Regatta - HS SILVER      
+Dakota Burns              '28        The Urban School                    B     27      Crew     2025 Rose Bowl Regatta - HS SILVER      
+Dominik Moncur            '25        Wayzata High School                 A     3       Skipper  2024 ISSA Keelboat National Invitational
+Stonewall Anderson        '26        Wayzata High School                 A     3       Crew     2024 ISSA Keelboat National Invitational
+Britta Lundeen-Hetland    '25        Wayzata High School                 A     3       Crew     2024 ISSA Keelboat National Invitational
+
+Sailors by school:
+Corona del Mar High School: 24 sailors
+Point Loma High School: 21 sailors
+Mater Dei High School: 19 sailors
+Bainbridge High School: 18 sailors
+Olympia High School: 12 sailors
+San Pedro High School: 12 sailors
+Anacortes High School: 11 sailors
+Mission Bay High School: 11 sailors
+Francis Parker School: 10 sailors
+La Jolla High School: 10 sailors
+Newport Harbor High School: 10 sailors
+Bishop's School: 9 sailors
+The Bay School of San Francisco: 9 sailors
+Alameda High School: 8 sailors
+Capital High School: 8 sailors
+Cathedral Catholic High School: 8 sailors
+Coastal Academy High School: 8 sailors
+New Trier HS: 8 sailors
+Redwood High School: 8 sailors
+San Domenico High School: 8 sailors
+San Marcos High School: 8 sailors
+South Torrance High School: 8 sailors
+Archbishop Riordan: 7 sailors
+Mira Costa High School: 7 sailors
+Redondo Union High School: 7 sailors
+SF University High School: 7 sailors
+Sato Academy of Mathematics and Science: 7 sailors
+Chatham High School: 6 sailors
+Convent and Stuart Hall High Schools: 6 sailors
+Los Alamitos High School: 6 sailors
+St. Joseph High School: 6 sailors
+The Stony Brook School: 6 sailors
+Blue and Gold: 5 sailors
+Coronado Islanders: 5 sailors
+Crossroads: 5 sailors
+St. Ignatius College Prep - San Francisco: 5 sailors
+The Urban School: 5 sailors
+Berkeley High School: 4 sailors
+Clear Lake High School: 4 sailors
+Design Tech High School: 4 sailors
+Dos Pueblos: 4 sailors
+Encinal High School: 4 sailors
+Gig Harbor High School: 4 sailors
+Grosse Pointe South High School: 4 sailors
+Hampton Roads Academy: 4 sailors
+Harvard-Westlake: 4 sailors
+Immaculata La Salle High School: 4 sailors
+John T. Hoggard High School: 4 sailors
+Laguna Blanca School: 4 sailors
+Lake Forest High School: 4 sailors
+Loyola Academy: 4 sailors
+Pacific Collegiate School: 4 sailors
+Pacific Palisades Charter High School: 4 sailors
+Park City High School: 4 sailors
+Parker: 4 sailors
+Santa Barbara High School: 4 sailors
+Santa Monica High School: 4 sailors
+St. George's School: 4 sailors
+St. John Bosco High School: 4 sailors
+Tabor Academy: 4 sailors
+The International School of San Francisco: 4 sailors
+Palos Verdes Peninsula High School: 3 sailors
+Wayzata High School: 3 sailors
+Palos Verdes High School: 2 sailors
+
+Total Skippers: 203
+Total Crews: 239
+Total Division A: 248
+Total Division B: 194
+
+Total Regattas: 5
+Regattas processed:
+- 2024 ISSA Keelboat National Invitational
+- 2024-25 PCISA SoCal 3 Gold
+- 2025 Rose Bowl Regatta - HS Bronze
+- 2025 Rose Bowl Regatta - HS GOLD
+- 2025 Rose Bowl Regatta - HS SILVER

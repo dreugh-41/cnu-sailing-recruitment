@@ -1,0 +1,383 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ clean_name }} - Sailor Profile{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>{{ clean_name }}</h1>
+    <div>
+        <a href="{% url 'interested_sailors' %}" class="btn btn-secondary">Back to Interested Sailors</a>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Basic Information Column -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Basic Information</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>School</th>
+                            <td>{{ sailor.school.name }}</td>
+                        </tr>
+                        <tr>
+                            <th>Graduation Year</th>
+                            <td>{{ grad_year }}</td>
+                        </tr>
+                        <tr>
+                            <th>Position</th>
+                            <td>{{ position_display }}</td>
+                        </tr>
+                        <tr>
+                            <th>ELO Rating</th>
+                            <td>{{ sailor.elo_rating|floatformat:0 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        {% if is_interested %}
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Recruitment Status</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>Added On</th>
+                            <td>{{ interest.date_added|date:"Y-m-d" }}</td>
+                        </tr>
+                        <tr>
+                            <th>Last Heard From</th>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span id="heard-date-{{ interest.id }}">
+                                        {% if interest.last_heard_from %}
+                                            {{ interest.last_heard_from|date:"Y-m-d" }}
+                                        {% else %}
+                                            Never
+                                        {% endif %}
+                                    </span>
+                                    <button class="btn btn-sm btn-outline-primary ms-2 update-date-btn" 
+                                           data-url="{% url 'update_heard_from' interest.id %}"
+                                           data-target="heard-date-{{ interest.id }}">
+                                        Update
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Last Reached Out</th>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span id="reached-date-{{ interest.id }}">
+                                        {% if interest.last_reached_out %}
+                                            {{ interest.last_reached_out|date:"Y-m-d" }}
+                                        {% else %}
+                                            Never
+                                        {% endif %}
+                                    </span>
+                                    <button class="btn btn-sm btn-outline-primary ms-2 update-date-btn" 
+                                           data-url="{% url 'update_reached_out' interest.id %}"
+                                           data-target="reached-date-{{ interest.id }}">
+                                        Update
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Regatta History</h5>
+                <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#regattaHistory" aria-expanded="false" aria-controls="regattaHistory">
+                    Toggle
+                </button>
+            </div>
+            <div class="collapse" id="regattaHistory">
+                <div class="card-body">
+                    {% if results %}
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Regatta</th>
+                                        <th>Division</th>
+                                        <th>Position</th>
+                                        <th>Place</th>
+                                        <th>ELO Change</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for result in results %}
+                                    <tr>
+                                        <td>{{ result.regatta.name }}</td>
+                                        <td>{{ result.division }}</td>
+                                        <td>{{ result.position }}</td>
+                                        <td>{{ result.place }}</td>
+                                        <td class="{% if result.elo_change > 0 %}text-success{% elif result.elo_change < 0 %}text-danger{% endif %}">
+                                            {% if result.elo_change > 0 %}+{% endif %}{{ result.elo_change|floatformat:1 }}
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% else %}
+                        <p>No regatta results found for this sailor.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    
+    <!-- Main Content Column -->
+    <div class="col-md-8">
+        <!-- Notes Card -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Recruitment Notes</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{% url 'update_notes' interest.id %}">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <textarea name="notes" class="form-control" rows="6">{{ interest.notes|default:'' }}</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Notes</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Additional Information Card -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Additional Information</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{% url 'update_sailor_info' interest.id %}" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" value="{{ interest.phone|default:'' }}">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" value="{{ interest.email|default:'' }}">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="position" class="form-label">Position Preference</label>
+                                <select id="position" name="position" class="form-select">
+                                    <option value="">-- Select --</option>
+                                    <option value="Skipper" {% if interest.position == 'Skipper' %}selected{% endif %}>Skipper</option>
+                                    <option value="Crew" {% if interest.position == 'Crew' %}selected{% endif %}>Crew</option>
+                                    <option value="Both" {% if interest.position == 'Both' %}selected{% endif %}>Both</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="gpa" class="form-label">GPA</label>
+                                <input type="text" id="gpa" name="gpa" class="form-control" value="{{ interest.gpa|default:'' }}">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="size" class="form-label">Physical Size</label>
+                                <input type="text" id="size" name="size" class="form-control" value="{{ interest.size|default:'' }}">
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="major" class="form-label">Intended Major</label>
+                                <input type="text" id="major" name="major" class="form-control" value="{{ interest.major|default:'' }}">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="hometown" class="form-label">Hometown</label>
+                                <input type="text" id="hometown" name="hometown" class="form-control" value="{{ interest.hometown|default:'' }}">
+                            </div>
+                            
+                            <!-- Coach Information - preloaded and editable -->
+                            <div class="mb-3">
+                                <label for="coach_name" class="form-label">Coach's Name</label>
+                                <div class="input-group">
+                                    <input type="text" id="coach_name" name="coach_name" class="form-control" 
+                                        value="{{ interest.coach_name|default:'' }}" 
+                                        {% if interest.get_coach_info.name and not interest.coach_name %}
+                                        placeholder="{{ interest.get_coach_info.name }}"
+                                        {% endif %}>
+                                    {% if interest.get_coach_info.name %}
+                                    <button type="button" class="btn btn-outline-secondary" 
+                                            onclick="document.getElementById('coach_name').value='{{ interest.get_coach_info.name }}'">
+                                        <i class="bi bi-arrow-counterclockwise"></i> Use School Coach
+                                    </button>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="coach_contact" class="form-label">Coach's Contact</label>
+                                <div class="input-group">
+                                    <input type="text" id="coach_contact" name="coach_contact" class="form-control" 
+                                        value="{{ interest.coach_contact|default:'' }}"
+                                        {% if interest.get_coach_info.email and not interest.coach_contact %}
+                                        placeholder="{{ interest.get_coach_info.email }}{% if interest.get_coach_info.phone %}, {{ interest.get_coach_info.phone }}{% endif %}"
+                                        {% endif %}>
+                                    {% if interest.get_coach_info.email or interest.get_coach_info.phone %}
+                                    <button type="button" class="btn btn-outline-secondary" 
+                                            onclick="document.getElementById('coach_contact').value='{{ interest.get_coach_info.email }}{% if interest.get_coach_info.phone %}, {{ interest.get_coach_info.phone }}{% endif %}'">
+                                        <i class="bi bi-arrow-counterclockwise"></i> Use School Contact
+                                    </button>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="references" class="form-label">References</label>
+                                <textarea id="references" name="references" class="form-control" rows="3">{{ interest.references|default:'' }}</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="transcript" class="form-label">Transcript</label>
+                                <div class="input-group">
+                                    <input type="file" id="transcript" name="transcript" class="form-control" accept=".pdf,.doc,.docx">
+                                    {% if interest.transcript %}
+                                    <a href="{{ interest.transcript.url }}" target="_blank" class="btn btn-outline-secondary">
+                                        <i class="bi bi-file-earmark-pdf"></i> View Current
+                                    </a>
+                                    {% endif %}
+                                </div>
+                                {% if interest.transcript %}
+                                <small class="form-text text-muted">Current file: {{ interest.transcript.name|slice:"11:" }}</small>
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="sailing_resume" class="form-label">Sailing Resume</label>
+                                <div class="input-group">
+                                    <input type="file" id="sailing_resume" name="sailing_resume" class="form-control" accept=".pdf,.doc,.docx">
+                                    {% if interest.sailing_resume %}
+                                    <a href="{{ interest.sailing_resume.url }}" target="_blank" class="btn btn-outline-secondary">
+                                        <i class="bi bi-file-earmark-pdf"></i> View Current
+                                    </a>
+                                    {% endif %}
+                                </div>
+                                {% if interest.sailing_resume %}
+                                <small class="form-text text-muted">Current file: {{ interest.sailing_resume.name|slice:"15:" }}</small>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- School Coach Info Card -->
+                    {% if interest.get_coach_info.name or interest.get_coach_info.email or interest.get_coach_info.phone %}
+                    <div class="mb-3">
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <h6 class="card-title d-flex justify-content-between align-items-center">
+                                    {{ sailor.school.name }} Coach Information
+                                    <a href="{% url 'coach_list' %}?search={{ sailor.school.name|urlencode }}" class="btn btn-sm btn-outline-primary">View in Directory</a>
+                                </h6>
+                                <p class="mb-1">
+                                    {% if interest.get_coach_info.name %}
+                                    <strong>Coach:</strong> {{ interest.get_coach_info.name }}<br>
+                                    {% endif %}
+                                    {% if interest.get_coach_info.email %}
+                                    <strong>Email:</strong> <a href="mailto:{{ interest.get_coach_info.email }}">{{ interest.get_coach_info.email }}</a><br>
+                                    {% endif %}
+                                    {% if interest.get_coach_info.phone %}
+                                    <strong>Phone:</strong> {{ interest.get_coach_info.phone }}<br>
+                                    {% endif %}
+                                    {% if interest.get_coach_info.school_url %}
+                                    <strong>School Page:</strong> <a href="{{ interest.get_coach_info.school_url }}" target="_blank">View on ISSA</a>
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    <button type="submit" class="btn btn-primary">Save Information</button>
+                </form>
+            </div>
+        </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Date update buttons
+    document.querySelectorAll('.update-date-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            
+            const url = this.dataset.url;
+            const targetId = this.dataset.target;
+            const targetElement = document.getElementById(targetId);
+            
+            // Send AJAX request
+            fetch(url, {
+                method: 'GET',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Update the date display
+                    targetElement.textContent = data.date;
+                    
+                    // Show notification
+                    showNotification('Date updated successfully');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showNotification('Error updating date', 'danger');
+            });
+        });
+    });
+    
+    // Helper function to show notifications
+    function showNotification(message, type = 'success') {
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = 'position-fixed bottom-0 end-0 p-3';
+        notification.style.zIndex = '1050';
+        notification.innerHTML = `
+            <div class="toast show bg-${type} text-white" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-body">
+                    ${message}
+                </div>
+            </div>
+        `;
+        
+        // Add to document
+        document.body.appendChild(notification);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,249 @@
+{% extends 'base.html' %}
+
+{% block title %}Sailors - CNU Recruitment{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Sailor Rankings</h1>
+    <div>
+        <a href="{% url 'interested_sailors' %}" class="btn btn-primary">View Interested Sailors</a>
+        <a href="{% url 'remove_graduation_year' %}" class="btn btn-danger">Remove Graduation Year</a>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <input type="text" id="sailorSearch" class="form-control" placeholder="Search by name or school...">
+            </div>
+            <div class="col-md-6">
+                <form method="get" class="form-inline">
+                    <div class="input-group">
+                        <select name="grad_year" id="gradYearFilter" class="form-select">
+                            <option value="">All Graduation Years</option>
+                            {% for year in grad_years %}
+                            <option value="{{ year }}" {% if year == current_grad_year %}selected{% endif %}>{{ year }}</option>
+                            {% endfor %}
+                        </select>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                        {% if current_grad_year %}
+                        <a href="{% url 'sailor_list' %}" class="btn btn-secondary">Clear</a>
+                        {% endif %}
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>School</th>
+                        <th>Grad Year</th>
+                        <th>Position</th>
+                        <th>ELO Rating</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in sailor_data %}
+                    <tr class="sailor-row" data-sailor-id="{{ item.sailor.id }}" style="cursor: pointer;">
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ item.clean_name }}</td>
+                        <td>{{ item.sailor.school.name }}</td>
+                        <td>{{ item.grad_year }}</td>
+                        <td>{{ item.primary_position }}</td>
+                        <td>{{ item.sailor.elo_rating|floatformat:0 }}</td>
+                        <td>
+                            <a href="{% url 'toggle_interest' item.sailor.id %}" 
+                                class="interest-btn btn btn-sm {% if item.is_interested %}btn-danger{% else %}btn-success{% endif %}">
+                                    {% if item.is_interested %}
+                                        Remove Interest
+                                    {% else %}
+                                        Mark Interest
+                                    {% endif %}
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="details-row d-none" id="details-{{ item.sailor.id }}">
+                        <td colspan="7">
+                            <div class="regatta-details p-3">
+                                <h5>Regatta History for {{ item.clean_name }}</h5>
+                                {% if item.sailor.result_set.all %}
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Regatta</th>
+                                            <th>Division</th>
+                                            <th>Position</th>
+                                            <th>Place</th>
+                                            <th>Season</th>
+                                            <th>ELO Change</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for result in item.sailor.result_set.all %}
+                                        <tr>
+                                            <td>{{ result.regatta.name }}</td>
+                                            <td>{{ result.division }}</td>
+                                            <td>{{ result.position }}</td>
+                                            <td>{{ result.place }}</td>
+                                            <td>{{ result.regatta.season }}</td>
+                                            <td class="{% if result.elo_change > 0 %}text-success{% elif result.elo_change < 0 %}text-danger{% endif %}">
+                                                {% if result.elo_change > 0 %}+{% endif %}{{ result.elo_change|floatformat:1 }}
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                                {% else %}
+                                <p>No regatta results found for this sailor.</p>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="7" class="text-center">No sailors in database. Try scraping some data first.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Search functionality
+    document.getElementById('sailorSearch').addEventListener('keyup', function() {
+        const searchText = this.value.toLowerCase();
+        const rows = document.querySelectorAll('.sailor-row');
+        
+        rows.forEach(row => {
+            const name = row.cells[1].textContent.toLowerCase();
+            const school = row.cells[2].textContent.toLowerCase();
+            const gradYear = row.cells[3].textContent.toLowerCase();
+            const position = row.cells[4].textContent.toLowerCase();
+            const detailsRow = document.getElementById('details-' + row.dataset.sailorId);
+            
+            if (name.includes(searchText) || school.includes(searchText) || 
+                gradYear.includes(searchText) || position.includes(searchText)) {
+                row.style.display = '';
+                if (detailsRow && !detailsRow.classList.contains('d-none')) {
+                    detailsRow.style.display = '';
+                }
+            } else {
+                row.style.display = 'none';
+                if (detailsRow) {
+                    detailsRow.style.display = 'none';
+                }
+            }
+        });
+    });
+    
+    // Make rows clickable to show details
+    document.querySelectorAll('.sailor-row').forEach(row => {
+        row.addEventListener('click', function(event) {
+            // Don't trigger if clicked on the interest button
+            if (event.target.tagName === 'A' || event.target.tagName === 'BUTTON') {
+                return;
+            }
+            
+            const sailorId = this.dataset.sailorId;
+            const detailsRow = document.getElementById('details-' + sailorId);
+            
+            if (detailsRow.classList.contains('d-none')) {
+                // Close any other open details rows
+                document.querySelectorAll('.details-row:not(.d-none)').forEach(row => {
+                    row.classList.add('d-none');
+                });
+                
+                // Open this details row
+                detailsRow.classList.remove('d-none');
+                this.classList.add('table-active');
+            } else {
+                // Close this details row
+                detailsRow.classList.add('d-none');
+                this.classList.remove('table-active');
+            }
+        });
+    });
+    
+    // Prevent Interest buttons from triggering row click and implement AJAX
+    document.querySelectorAll('.interest-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            // Stop event from bubbling up to the row
+            event.stopPropagation();
+            
+            // Prevent default link behavior (page refresh)
+            event.preventDefault();
+            
+            const url = this.getAttribute('href');
+            const button = this; // Store reference to button
+            
+            // Send AJAX request
+            fetch(url, {
+                method: 'GET',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Update button text and class
+                    if (data.action === 'added') {
+                        button.textContent = 'Remove Interest';
+                        button.classList.remove('btn-success');
+                        button.classList.add('btn-danger');
+                    } else {
+                        button.textContent = 'Mark Interest';
+                        button.classList.remove('btn-danger');
+                        button.classList.add('btn-success');
+                    }
+                    
+                    // Show a temporary notification
+                    showNotification(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showNotification('Error updating interest status', 'danger');
+            });
+        });
+    });
+    
+    // Helper function to show notifications
+    function showNotification(message, type = 'success') {
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = 'position-fixed bottom-0 end-0 p-3';
+        notification.style.zIndex = '1050';
+        notification.innerHTML = `
+            <div class="toast show bg-${type} text-white" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-body">
+                    ${message}
+                </div>
+            </div>
+        `;
+        
+        // Add to document
+        document.body.appendChild(notification);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    }
+    
+    // Auto-submit form when changing graduation year
+    document.getElementById('gradYearFilter').addEventListener('change', function() {
+        this.form.submit();
+    });
+</script>
+{% endblock %}
