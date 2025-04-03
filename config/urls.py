@@ -4,7 +4,7 @@ from django.urls import path, include
 from sailors import views
 from django.conf import settings
 from django.conf.urls.static import static
-from sailors.login_fix import fix_login, test_login, direct_login, login_fix
+from sailors.login_fix import fix_login, test_login, direct_login
 
 urlpatterns = [
     path('admin/', admin.site.urls),
