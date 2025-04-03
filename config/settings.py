@@ -10,6 +10,7 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 
+
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_AGE = 86400  # 1 day in seconds
 SESSION_COOKIE_SECURE = False  # Set to True in production with HTTPS
