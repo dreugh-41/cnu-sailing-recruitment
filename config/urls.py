@@ -4,9 +4,12 @@ from django.urls import path, include
 from sailors import views
 from django.conf import settings
 from django.conf.urls.static import static
+from sailors.login_fix import fix_login, test_login
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('login-fix/', fix_login, name='login_fix'),
+    path('login-test/', test_login, name='test_login'),
     path('', include('sailors.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
     path('coaches/', include('coaches.urls')),
