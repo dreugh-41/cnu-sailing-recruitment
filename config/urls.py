@@ -4,7 +4,7 @@ from django.urls import path, include
 from sailors import views
 from django.conf import settings
 from django.conf.urls.static import static
-from sailors.login_fix import fix_login, test_login
+from sailors.login_fix import fix_login, test_login, direct_login, login_fix
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -17,6 +17,7 @@ urlpatterns = [
     path('', include('sailors.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
     path('coaches/', include('coaches.urls')),
+    path('emergency-login/', direct_login, name='emergency_login'),
 ]
 
 if settings.DEBUG:

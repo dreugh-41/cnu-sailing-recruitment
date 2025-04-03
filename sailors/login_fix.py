@@ -4,9 +4,11 @@ from django.db import IntegrityError, connections
 from django.conf import settings
 from django.contrib.auth import authenticate, login
 from django.shortcuts import redirect
+from django.middleware.csrf import get_token
 
 def fix_login(request):
     """View to diagnose and fix login issues"""
+    csrf_token = get_token(request)
     response = []
     
     # Display environment info
@@ -58,9 +60,9 @@ def fix_login(request):
     
     # Login form for quick testing
     response.append("<h2>Test Login Form</h2>")
-    response.append("""
+    response.append(f"""
     <form method="post" action="/login-test/">
-        <input type="hidden" name="csrfmiddlewaretoken" value="manually-bypassed-for-test">
+        <input type="hidden" name="csrfmiddlewaretoken" value="{csrf_token}">
         <div>
             <label>Username: <input type="text" name="username" value="admin"></label>
         </div>
@@ -91,3 +93,24 @@ def test_login(request):
             return HttpResponse(f"<p style='color:red'>Login failed for {username}. Wrong credentials or authentication backend issue.</p>")
     
     return HttpResponse("Method not allowed", status=405)
+
+def direct_login(request):
+    """Direct login view that bypasses potential issues"""
+    if request.method == "POST":
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return redirect('/')
+        else:
+            return HttpResponse("Login failed. Wrong credentials.")
+    
+    return HttpResponse("""
+    <h1>Emergency Login</h1>
+    <form method="post">
+        <div>Username: <input type="text" name="username" value="admin"></div>
+        <div>Password: <input type="password" name="password"></div>
+        <button type="submit">Login Now</button>
+    </form>
+    """)
